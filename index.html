@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TariheDogru</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <style media="screen">
+      h3{
+        font-family: 'Cinzel', serif;
+      }
+      p{
+        font-family: 'Cinzel', serif;
+        color: 'Dark'
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+      <div class="container">
+        <!--Logo -->
+      <a class="navbar-brand" href="#"><H3>TariheDogru</H3></a>
+      <!-- Toogle Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Collapse"><span class="navbar-toggler-icon">
+      </span></button>
+        <!--Links-->
+        <div class="collapse navbar-collapse" id="Collapse">
+        <ul class="navbar-nav">
+        <li class="navbar-item">
+          <a class="nav-link" href="index.html"><h5>Anasayfa</h1></a>
+        </li>
+        <li class="navbar-item">
+          <a class="nav-link" href="Hakkimda.html"></h2>Hakkımda</h2></a>
+        </li>
+        <li class="navbar-item" data-parent="#accordion">
+          <a class="nav-link" href="İletisim.html"></h1>İletişim</h1></a>
+        </li>
+        </div>
+      </ul>
+      </div>
+    </nav>
+<br><br>
+    <div  id="slide1" class="carousel slide" data-ride="carousel">
+      <!---Slider events--->
+      <ol class="carousel-indicators">
+        <li data-target="#slide1" data-slide-to="0" class="Active"></li>
+        <li data-target="#slide1" data-slide-to="1" class="Active"></li>
+        <li data-target="#slide1" data-slide-to="2" class="Active"></li>
+        <li data-target="#slide1" data-slide-to="3" class="Active"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="https://cdn.yeniakit.com.tr/images/news/625/mete-han-0f6fff.jpg"
+          alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>METEHAN</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="https://cdn.yeniakit.com.tr/images/news/625/cengiz-han-e7486f.jpg"
+          alt="second slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>CENGİZHAN</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="https://cdn.yeniakit.com.tr/images/news/625/timur-b2b046.jpg"
+          alt="Third slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>TIMUR</h3>
+          </div>
+        </div>
+        <br>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="https://masivaturk.com/resimler/genel-kultur/tarih/papanin-ayaklarina-kapandigi-turk-atilla/papanin-ayaklarina-kapandigi-turk-atilla-sayfa-resmi.jpg"
+          alt="Four slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>ATILLA</h3>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-next" href="#slide1" role="button" data-slide="next"><span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+    <br><br>
+<div class="row">
+  <div class="col-3">
+    <div class="card">
+      <img class="card-img-top" src="http://im.haberturk.com/2014/06/27/ver1403845903/962619_detay.jpg"
+      alt="Card image cap">
+      <div class="car-body">
+        <p class="card-text">
+          Metehan
+        </p>
+        <a href="Bilgiler Metehan.html" class="btn btn-primary">Sayfaya Git</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-3">
+    <div class="card">
+      <img class="card-img-top" src="https://galeri3.uludagsozluk.com/167/cengiz-han-in-40-milyon-insani-oldurmus-olmasi_230377.jpg"
+      alt="Card image cap">
+      <div class="car-body">
+        <p class="card-text">
+          Cengizhan
+        </p>
+        <a href="Bilgiler Cengizhan.html" class="btn btn-primary">Sayfaya Git</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-3">
+    <div class="card" style="height:200px">
+      <img class="card-img-top" src="https://cf.kizlarsoruyor.com/a55761/e490c58d-acf1-4ade-a027-4b6133556df7.jpg"
+      alt="Card image cap">
+      <div class="car-body">
+        <p class="card-text">
+          Timur
+        </p>
+        <a href="Bilgiler Timur.html" class="btn btn-primary">Sayfaya Git</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-3">
+    <div class="card">
+      <img class="card-img-top" src="http://www.gelisenbeyin.net/img/atilla.jpg"
+      alt="Card image cap">
+      <div class="car-body">
+        <p class="card-text">
+          Atilla
+        </p>
+        <a href="Bilgiler Atilla.html" class="btn btn-primary">Sayfaya Git</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"  crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+
+    <script>
+     $('.carousel').carousel({
+        interval:2000
+     });
+
+    $('#slide1').on('slide.bs.carousel',function(){
+      console.log('slide geçişi başladı');
+    });
+
+    $('#slide1').on('slid.bs.carousel',function(){
+      console.log('slide geçişi bitti');
+    });
+
+
+
+    </script>
+  </body>
+</html>
